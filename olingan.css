@@ -1,0 +1,90 @@
+.rectangle {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    position: relative;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.clear-all {
+    background: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.aa3 {
+    text-decoration: none;
+    color: gray;
+    font-weight: 500;
+}
+
+
+.olinganNarsa {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.delete-btn {
+    border-radius: 10px;
+    border: 2px solid red;
+    color: red;
+    font-weight: 600;
+    background: none;
+    transition: .3s ease-out;
+}
+
+.delete-btn:hover {
+    background-color: red;
+    color: white;
+}
+
+
+
+.purchased-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px 13px 2px gray;
+    border: 2px solid blue;
+}
+
+.purchased-item img {
+    width: 100px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.purchased-item p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+}
